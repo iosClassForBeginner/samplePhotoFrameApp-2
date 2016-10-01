@@ -27,7 +27,7 @@
 
 #### 1, Storyboardで、アプリのデザイン
 > 1-1. main.storyboardを選択し、UI部品からscrollViewを配置します。(ドラッグ&ドロップ)
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/tree/master/Assets/6.jpg" /></div>
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/blob/master/Assets/6.png" /></div>
 
 > 1-2. StoryboardからViewcontroller.swiftにscrollViewを紐付けます。
 - scrollViewの紐付け方(control押しながらドラッグ)
