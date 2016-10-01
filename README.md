@@ -2,7 +2,7 @@
   
 # 第9回: １時間でiPhoneアプリを作ろう (2016/10/09)
 
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/tree/master/Assets/sample.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/blob/master/Assets/sample.gif" /></div>
   
   当アカウントへ訪れていただき、誠にありがとうございます。第9回アプリ教室では、フォトフレームアプリを作ります。自分のペースで勉強したい、勉強前に予習したい、内容を復習したい場合、ご利用ください。
   
@@ -31,7 +31,7 @@
 
 > 1-2. StoryboardからViewcontroller.swiftにscrollViewを紐付けます。
 - scrollViewの紐付け方(control押しながらドラッグ)
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/tree/master/Assets/7.gif" /></div>
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/blob/master/Assets/7.gif" /></div>
 
 #### 2, ViewController.swiftにコード記述
 - 以下コードブロックを記入
