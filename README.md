@@ -20,10 +20,10 @@
 ## アプリ作成手順
 #### 0, 準備
 > 0-1. 表示する写真、アイコンの準備
-・写真
-  https://pixabay.com/
-・アイコン
-  http://flat-icon-design.com/
+  ・写真
+    https://pixabay.com/
+  ・アイコン
+    http://flat-icon-design.com/
 
 #### 1, Storyboardで、アプリのデザイン
 > 1-1. main.storyboardを選択し、UI部品からscrollViewを配置します。(ドラッグ&ドロップ)
@@ -34,7 +34,7 @@
 <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/samplePhotoFrameApp/blob/master/Assets/7.gif" /></div>
 
 #### 2, ViewController.swiftにコード記述
-- 以下コードブロックを記入
+#### 以下コードブロックを記入
   
 - 写真表示
 
