@@ -28,34 +28,23 @@ class ViewController: UIViewController
         let width = myScrollView.frame.size.width
         let height = myScrollView.frame.size.height
         
-        // １枚目の写真
-        let myImageView1 = UIImageView()
-        myImageView1.frame = CGRectMake(x, y, width, height)
-        myImageView1.image = UIImage(named: "photo-1.jpg")
-        myImageView1.contentMode = .ScaleAspectFill
-        myImageView1.clipsToBounds = true
-        myScrollView!.addSubview(myImageView1)
+        let photoNames = ["photo-1.jpg",
+                          "photo-2.jpg",
+                          "photo-3.jpg"]
         
-        // 2枚目の写真
-        x += width
-        let myImageView2 = UIImageView()
-        myImageView2.frame = CGRectMake(x, y, width, height)
-        myImageView2.image = UIImage(named: "photo-2.jpg")
-        myImageView2.contentMode = .ScaleAspectFill
-        myImageView2.clipsToBounds = true
-        myScrollView!.addSubview(myImageView2)
-        
-        // 3枚目の写真
-        x += width
-        let myImageView3 = UIImageView()
-        myImageView3.frame = CGRectMake(x, y, width, height)
-        myImageView3.image = UIImage(named: "photo-3.jpg")
-        myImageView3.contentMode = .ScaleAspectFill
-        myImageView3.clipsToBounds = true
-        myScrollView!.addSubview(myImageView3)
+        photoNames.forEach {
+            let photoName = $0
+            let myImageView = UIImageView()
+            myImageView.frame = CGRectMake(x, y, width, height)
+            myImageView.image = UIImage(named: photoName)
+            myImageView.contentMode = .ScaleAspectFill
+            myImageView.clipsToBounds = true
+            myScrollView!.addSubview(myImageView)
+            x += width
+        }
         
         // スクロールサイズ調整 (写真3枚スクロールするので、写真幅 x 3)
-        myScrollView!.contentSize.width = width * 3
+        myScrollView!.contentSize.width = width * CGFloat(photoNames.count)
         
         // ページングする
         myScrollView!.pagingEnabled = true
